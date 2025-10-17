@@ -50,7 +50,7 @@ def main():
         portal = "https://nifc.maps.arcgis.com"
         #User login info
         user = "BLM_SageGrouse"
-        bpswd = b'1hrt%5cRiptG'
+        bpswd = b'xxxxxx'
         encodedpwdAGOL = base64.b64encode(bpswd)            #Encrypt password (from Danelle)
 
         e_msg1 = """\
@@ -186,3 +186,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
