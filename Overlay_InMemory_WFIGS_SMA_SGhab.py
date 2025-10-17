@@ -44,7 +44,7 @@ try:
     portal = "https://nifc.maps.arcgis.com"
     #User login info
     user = "BLM_SageGrouse"
-    bpswd = b'1hrt%5cRiptG'
+    bpswd = b'xxxxxxxx'
     encodedpwdAGOL = base64.b64encode(bpswd)            #Encrypt password (from Danelle)
 
     # INPUTS ONLINE:
@@ -776,3 +776,4 @@ if arcpy.Exists("in_memory"):
 dte = datetime.now()
 datetmend = dte.strftime("%Y%m%d_%H%M")
 print("END TIME: "+datetmend)
+
